@@ -1,6 +1,6 @@
 = Visie/Scope
 
-:toc: 
+:toc: left
 
 = Inleiding
 
