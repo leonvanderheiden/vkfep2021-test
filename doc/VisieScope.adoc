@@ -45,7 +45,7 @@ image:./../assets/images/BPMN.svg[BPMN]
 
 **TODO:** __Inleiding van dit hoofdstuk schrijven. Dat dit hoofdstuk de visie zal beschrijven van het uiteindelijke product, waarvan het doel is om deze visie te behalen door in iteraties telkens MVP's op te leveren. In dit hoofdstuk wordt de scope van elke MVP aan de hand van User Stories vastgesteld.__.
 
-=== MVP 1
+=== MVP 1 - Simple Reparatiekaart Systeem
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
@@ -55,7 +55,7 @@ image:./../assets/images/BPMN.svg[BPMN]
 | __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
 |===
 
-=== MVP 2
+=== MVP 2 - Verbeterde tijdinschatting
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
