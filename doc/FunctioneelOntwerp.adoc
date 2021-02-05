@@ -14,43 +14,106 @@ toc::[]
 Het domein model komt tot stant door klassen die we uit de User Stories kunnen extraheren.
 
 === Analyse van de User Stories
-User Story (#5): Als medewerker wil ik een reparatiekaart digitaal kunnen aanmaken zodat deze fietsreparatie correct geregistreerd wordt/leesbaar opgeslagen wordt.
+Deze MVP is gebaseerd op twee User Stories.
 
-image::./../assets/images/schets-us5.png[Schets]
+==== User Story #5
+
+**User Story (#5):  Als medewerker wil ik een reparatiekaart digitaal kunnen aanmaken zodat deze fietsreparatie correct geregistreerd wordt/leesbaar opgeslagen wordt.**
+
+image::./../assets/images/schets-us5.png[Schets, 300, 300]
 
 Uit deze User Story kunnen we de klasse **Reparatiekaart** extraheren, en de attributen voor deze klasse extraheren we uit de schets afleiden.
-Hierbij moet worden opgemerkt dat inmiddels is gebleken dat het attribuut prijs voor het aanmaken van een reparatiekaart geen goed attribuut bleek te zijn. Dit attribuut is derhalve komen te vervalen.
+
+Omdat bij "Soort fiets" een keuze gemaakt wordt uit soorten en dit in principe een fixed lijstje is hebben we hiervoor een enumeration klasse **VoertuigType** vastgesteld.
+
+Verder moet worden opgemerkt dat inmiddels is gebleken dat het attribuut __prijs__ voor het aanmaken van een reparatiekaart geen goed attribuut bleek te zijn. Dit attribuut is derhalve komen te vervalen.
+
+==== User Story #7 
+
+**User Story (#7): Als medewerker wil ik een totaal overzicht kunnen inzien van alle reparaties zodat ik kan actuele informatie kan verkrijgen over reparaties**
+
+**HUISWERK:** Analyseer deze user story en bepaal de impact op het domein model.
 
 === Het Domein Model
 
+Het resultaat van de analyse van de User Stories is het volgende Domein Model.
+
 image::./../assets/images/DomeinModel.png[Domein Model]
 
-=== Klasse Reparatiekaart
 
-==== Toestandsdiagram
+== Klasse Reparatiekaart
 
-==== Use Case Diagram
+**TODO:** __Inleidend verhaal voor dit hoofdstuk__
 
-**TODO:**  __Alleen aanmaken use case is onderdeel van deze sprint / User Story__
-==== Use Template
+=== Toestandsdiagram
 
+Op basis van User Story #5 kunnen we de transitie van de start node naar de een toestand die we voor nu "bestaat" hebben genoemd verantworden.
+
+Omdat elke toestand minimaal een uitgaande transitie vereist en de life cycle van de instantie van een object ook eindig zou moeten zijn is het verantwoord om een transitie "reparatiekaart verwijderen" aan het diagram toe te voegen.
+
+Het resulterende toestandsdiagram voor instanties van de klasse Reparatiekaart komt dan als volgt eruit te zien:
+
+image::./../assets/images/TD-Reparatiekaart.png[State Diagram - Reparatiekaart]
+[%autowidth, options=header]
+|===
+| Toestand | Kenmerk
+| bestaat | alle attributen hebben een waarde != NULL
+|===
+
+=== Use Case Diagram
+
+Op basis van het toestandsdiagram kunnen we het volgende Use Case Diagram opstellen.
+
+image::./../assets/images/UC-Reparatiekaart.png[Use Case Diagram - Reparatiekaart]
+
+Als we de Use Cases uitzetten tegen de onderkende User Stories valt op te maken dat er nog geen User Story is voor de Use Case "Reparatiekaart verwijderen". Dit is een issue en zou met de opdrachtgever besproken moeten worden.
+
+Maar voor deze sprint waarin we de User Stories #5 en #7 willen gaan realiseren is deze Use Case niet vereist en heeft dus geen impact op de voortgang van deze sprint.
+
+[%autowidth, options=header]
+|===
+| - | US #5 | US# 7 | US #8 | US #9 | US #12 | US #13
+| UC: Reparatiekaart aanmaken | x | | | | | 
+| UC: Reparatiekaart verwijderen | | | | | |
+|===
+
+
+=== Use Template
+
+Nu dat duidelijk is welke Use Cases we in deze sprint moeten uitwerken kunnen we nu voor elke Use Case een Use Case Template uitwerken.
+
+[%autowidth]
 |===
 | Use Case Nr: | 1
 | Use Case Naam: | Reparatiekaart aanmaken
 | Actor: | Medewerker
-| Samenvatting: |
+| Samenvatting: | **TODO**
 | Pre-conditie: | n.v.t.
-| Main Scenario: | 1. Systeem toont formulier (naam klant [set], soort fiets [set], reparatie [set], tijd [set])
-
-2. Actor vult formulier
-
-3.a. Systeem valideert
-
-3.b. Systeem slaat de informatie op
+| Main Scenario: 
+a|  [start=1]
+. Systeem toont formulier 
+  ( velden: naam klant [set], soort fiets [set], reparatie [set], tijd [set] )
+. Actor vult formulier
+. Systeem
+.. Systeem valideert
+.. Systeem slaat de informatie op
 
 | Post-conditie | Er is een nieuwe instantie van de Reparatiekaart aangemaakt en deze bevind zich in de toestand "bestaat".
+| Alternatief Scenario 
+a| 
+[%autowidth, cols="2,1"]
+!===
+
+! Trigger ! Stap 3a in Main Scenario [niet alle velden zijn gevuld]
+! Scenario 
+a! . Systeem
+.. Systeem toont foutmelding
+.. Systeem keert terug naar stap 1 van het Main Scenario
+
+!===
 
 |=== 
-==== Sitemap
 
-==== Wireframe
+=== Sitemap
+
+=== Wireframe
