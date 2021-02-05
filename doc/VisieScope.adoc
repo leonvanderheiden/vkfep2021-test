@@ -41,6 +41,10 @@ image:./../assets/images/BPMN.svg[BPMN]
 == Verdieping Rapartieproces
 **TODO:** __Uitgebreidere beschrijving incl BPMN van het reparatieproces. Tabel met knelpunten die uit analyse van het proces voortkomen opstellen, en elk knelpunt nummeren (K#).__
 
+image:./../assets/images/Reparatiekaart2.jpg[Voorkant Reparatiekaart, 450, 100]
+image:./../assets/images/Reparatiekaart1.jpg[AchterkantReparatiekaart, 450, 100]
+
+
 == Minimal Viable Products
 
 **TODO:** __Inleiding van dit hoofdstuk schrijven. Dat dit hoofdstuk de visie zal beschrijven van het uiteindelijke product, waarvan het doel is om deze visie te behalen door in iteraties telkens MVP's op te leveren. In dit hoofdstuk wordt de scope van elke MVP aan de hand van User Stories vastgesteld.__.
