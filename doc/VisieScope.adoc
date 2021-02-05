@@ -48,21 +48,22 @@ image:./../assets/images/Reparatiekaart1.jpg[AchterkantReparatiekaart, 450, 100]
 
 **TODO:** __Inleiding van dit hoofdstuk schrijven. Dat dit hoofdstuk de visie zal beschrijven van het uiteindelijke product, waarvan het doel is om deze visie te behalen door in iteraties telkens MVP's op te leveren. In dit hoofdstuk wordt de scope van elke MVP aan de hand van User Stories vastgesteld.__.
 
-=== MVP 1 - Simple Reparatiekaart Systeem
+=== MVP 1 - Heel Simple Reparatiekaart Systeem
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
-[options=header]
+[%autowidth, options=header]
 |===
 | # User Story | User Story | Oplossing voor knelpunt
-| __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
+| #5 | Als medewerker wil ik een reparatiekaart digitaal kunnen aanmaken zodat deze fietsreparatie correct geregistreerd wordt/leesbaar opgeslagen wordt | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
+| #7 | Als medewerker wil ik een totaal overzicht kunnen inzien van alle reparaties zodat ik kan actuele informatie kan verkrijgen over reparaties | __referentie naar Knelpunt nummer uit vorige hoofdstuk__
 |===
 
 === MVP 2 - Uitbreiden met klantenadministratie 
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
-[options=header]
+[%autowidth, options=header]
 |===
 | # User Story | User Story | Oplossing voor knelpunt
 | __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
@@ -72,7 +73,7 @@ image:./../assets/images/Reparatiekaart1.jpg[AchterkantReparatiekaart, 450, 100]
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
-[options=header]
+[%autowidth, options=header]
 |===
 | # User Story | User Story | Oplossing voor knelpunt
 | __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
