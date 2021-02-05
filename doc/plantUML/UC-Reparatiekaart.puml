@@ -1,0 +1,14 @@
+@startuml 
+
+left to right direction
+
+actor "Medewerker" as MDW 
+
+rectangle "Reparatiekaart Systeem" {
+    usecase "reparatiekaart aanmaken" as UC1
+    usecase "reparatiekaart verwijderen" as UC2
+}
+
+MDW -- UC1
+MDW -- UC2
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+
+state Repartiekaart {
+    [*] --> bestaat : <<Medewerker>> reparatiekaart aanmaken 
+    bestaat --> [*] : <<Medewerker>> reparatiekaart verwijderen
+}
+
+@enduml
