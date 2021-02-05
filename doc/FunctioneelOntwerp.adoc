@@ -12,5 +12,10 @@ toc::[]
 == Domein Model
 
 === Analyse van de User Stories
+User Story (#5): Als medewerker wil ik een reparatiekaart digitaal kunnen aanmaken zodat deze fietsreparatie correct geregistreerd wordt/leesbaar opgeslagen wordt 
+
+image::./../assets/images/schets-us5.png[Schets]
 
 === Het Domein Model
+
+image::./../assets/images/DomeinModel.png[Domein Model]

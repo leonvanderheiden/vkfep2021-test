@@ -1,0 +1,17 @@
+@startuml
+hide circle
+hide empty members
+
+class Reparatiekaart {
+    - klant: String 
+    - voertuigType: VoertuigType
+    - reparatie: ArrayList<String>
+    - tijd: Number 
+    - prijs: Float 
+}
+
+enum VoertuigType <<Enumeration>> {
+    Fiets 
+    Scooter 
+}
+@enduml

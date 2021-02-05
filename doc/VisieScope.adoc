@@ -55,7 +55,17 @@ image:./../assets/images/BPMN.svg[BPMN]
 | __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
 |===
 
-=== MVP 2 - Verbeterde tijdinschatting
+=== MVP 2 - Uitbreiden met klantenadministratie 
+
+**TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
+
+[options=header]
+|===
+| # User Story | User Story | Oplossing voor knelpunt
+| __(Github)Nummer van de User Story__ | __Als {rol} wil ik {functionaliteit}, zodat {doel}__ | __referentie naar Knelpunt nummer uit vorige hoofdstuk__ 
+|===
+
+=== MVP 3 - Verbeterde tijdinschatting
 
 **TODO:** __Algemeen verhaal omtrent de op te leveren applicatie van deze MVP.__
 
