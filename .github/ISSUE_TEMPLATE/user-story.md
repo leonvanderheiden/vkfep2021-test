@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-User Story:
+# User Story:
 Als {rol} wil ik {functionaliteit}, zodat {doel}
 
-Definition of Ready (DoR):
-[ ] Schetsen voor bij de User Story gemaakt.
-[ ] ...
+# Definition of Ready (DoR):
+- [ ] Schetsen voor bij de User Story gemaakt.
+- [ ] ...
 
-Definition of Done (DoD)
+# Definition of Done (DoD)
