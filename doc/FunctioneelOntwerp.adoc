@@ -117,3 +117,7 @@ a! . Systeem
 === Sitemap
 
 === Wireframe
+
+image::./../assets/images/WFSignUp.PNG[Sign Up Wireframe]
+
+image::./../assets/images/WFLogin.PNG[Login In Wireframe]
